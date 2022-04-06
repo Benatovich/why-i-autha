@@ -8,3 +8,8 @@ CREATE TABLE github_users (
   email TEXT,
   avatar TEXT
 );
+
+INSERT INTO 
+  github_users (username, email, avatar)
+VALUES
+  ('fake_github_user', 'not-real@example.com', 'avatar_url')
